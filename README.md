@@ -1,0 +1,3 @@
+# hand-gesture-recognition
+
+This repoistory represents the Computer Vision 1 class project. It is a simple hand gesture recognition system, which uses the Histogram of Oriented Gradients feature computed on the RGB contours of the hand. The dataset used is a small custom made one, having in total 40 images of different hand gestures categorized in 4 different classes. For classifying I used a Support Vector Machine with a gaussian kernel as well as a k-Neirest Neighbor classifier based on the neirest 2 neighbors, obtaining a 75% accuracy for SVM and 83.33% accuracy for kNN on the testing set of data, with a train test split of 70%-30%.
